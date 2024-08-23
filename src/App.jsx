@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoSection from './components/VideoSection';
 import MessageSection from './components/MessageSection';
-import './styles.css';
+//import './App.css';
 
 const App = () => {
   return (

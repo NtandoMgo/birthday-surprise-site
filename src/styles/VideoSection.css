@@ -1,0 +1,11 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .video {
+    border-radius: 10px;
+  }
+  

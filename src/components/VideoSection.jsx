@@ -1,17 +1,15 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
-import '../styles.css';
-import okayVid from '../assets/okay.mp4'
+import '../styles/VideoSection.css';
+import video from '../assets/okay.mp4'
 
 const VideoSection = () => {
   return (
     <div className="video-container">
-      <ReactPlayer
-        url='https://www.w3schools.com/html/mov_bbb.mp4'
-        controls
-        width='100%'
-        height='100%'
-      />
+      <h1>Happy Birthday</h1>
+      <video className="video" width="750" height="500" controls autoPlay loop>
+      <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   );
 };

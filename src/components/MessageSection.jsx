@@ -1,27 +1,23 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import '../styles.css';
+import '../styles/MessageSection.css';
+
 
 const MessageSection = () => {
   return (
     <div className="message-container">
-      <motion.h1
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2 }}
-      >
-        Happy 20th Birthday!
-      </motion.h1>
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2 }}
-      >
-        I have something special to ask you...
-      </motion.p>
-      {/* Add your call-to-action here */}
+      <h1 className="romantic-message">
+        This day hasn’t always been kind to you... <br />
+        But now, everything is different. <br /><br />
+        Ever since we met, I knew that I wanted to be the reason you smile, <br />
+        especially today. <br /><br />
+        You deserve all the love and happiness in the world, <br />
+        and I hope that this year, this day becomes special for you again. <br /><br />
+        So, I have to ask... <br /><br />
+        Will you be my girlfriend?
+      </h1>
     </div>
   );
 };
 
 export default MessageSection;
+
