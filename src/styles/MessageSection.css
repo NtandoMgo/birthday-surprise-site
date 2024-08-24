@@ -6,10 +6,10 @@
     background: radial-gradient(ellipse at 50% 50%, rgba(129, 141, 235, 1) 2%, rgba(217, 138, 211, 1) 45%, rgba(229, 7, 229, 1) 90%);
   }
   
-  .romantic-message {
+  .romantic-message, .confirmation-message {
     font-family: 'Cursive', sans-serif;
-    font-size: 3rem; /* Large and noticeable */
-    color: #fff; /* White text for contrast */
+    font-size: 3rem;
+    color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Slight shadow for depth */
     text-align: center;
     animation: fadeIn 3s ease-in-out;
@@ -21,7 +21,7 @@
   
   h1 {
     color: #ff69b4; /* You can adjust the color to your preference */
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   p {
@@ -38,7 +38,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .yes-button:hover {
