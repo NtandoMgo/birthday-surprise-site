@@ -3,6 +3,12 @@ import '../styles/MessageSection.css';
 
 
 const MessageSection = () => {
+
+  const handleButtonClick = () => {
+    // Redirect to mail client or open default email client
+    window.location.href = "mailto:your-email@example.com?subject=She said yes!&body=She accepted your request to be your girlfriend!";
+  };
+  
   return (
     <div className="message-container">
       <h1 className="romantic-message">
@@ -15,6 +21,10 @@ const MessageSection = () => {
         So, I have to ask... <br /><br />
         Will you be my girlfriend?
       </h1>
+
+      <button className="yes-button" onClick={handleButtonClick}>
+        Yes! 💖
+      </button>
     </div>
   );
 };

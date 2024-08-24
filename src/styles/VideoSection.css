@@ -1,11 +1,47 @@
 .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(129, 141, 235, 1) 2%, rgba(217, 138, 211, 1) 45%, rgba(229, 7, 229, 1) 90%);
+}
+
+.inner-container {
+  text-align: center; /* Center the content inside the inner container */
+}
+
+h1 {
+  font-family: 'Arial', sans-serif; /* Customize the font style if needed */
+  font-size: 2.5rem; /* Size of the heading */
+  margin-bottom: 20px; /* Space between the heading and the video */
+  color: #333;
+}
+
+.video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+/* Styles for devices smaller than 480px (very small devices) */
+@media (max-width: 480px) {
+  .video-container {
+    height: 70vh;
   }
-  
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
   .video {
-    border-radius: 10px;
+    width: 100%;
+    height: auto;
   }
-  
+
+  .video-container {
+    padding: 10px;
+    margin-top: 0;
+  }
+}
+
