@@ -57,7 +57,7 @@ Your site will be available at `http://localhost:5173`.
 ### Deployment
 You can deploy this project to any static hosting provider like Netlify, Vercel, or GitHub Pages.
 **Desktop Version:** 
-![Screenshot1](./assets/desktop1.png) ![Screenshot2](./assets/desktop1.png)
+![Screenshot1](./assets/desktop1.png)
 **Mobile Version:** 
 ![Screenshot](./assets/mobile.png)
 ## Technologies Used
