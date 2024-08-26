@@ -69,6 +69,7 @@ You can deploy this project to any static hosting provider like Netlify, Vercel,
 
 ## Screenshots
 Here's how its looks like on desktop and mobile
+![Desktop view](./src/assets/desktop1.png)
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
